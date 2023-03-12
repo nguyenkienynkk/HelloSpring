@@ -2,7 +2,7 @@ package com.kienspring.master.demo;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("dress")
 public class Dress implements Outfit {
     @Override
     //Tạo class có methods là wear();
