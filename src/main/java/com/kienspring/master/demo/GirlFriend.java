@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 @Component
 @Qualifier("paradox")
+//Ưu tiên giá trị trong qualifier
+//Có thể dùng @Primary trong các class để ưu tiên tương tự Qualifier
 public class GirlFriend {
     @Autowired
     /*Khi tạo ra 1 giá trị cho object girlfriend contaner sẽ tự động tạo ra 1 object outfit
